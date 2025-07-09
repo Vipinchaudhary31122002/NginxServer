@@ -1,0 +1,22 @@
+{
+  "name": "nginxserver",
+  "version": "1.0.0",
+  "description": "A simple hands-on project to learn and demonstrate basic Nginx server configuration.",
+  "main": "server.js",
+  "scripts": {
+    "prod": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vipinchaudhary31122002/NginxServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/Vipinchaudhary31122002/NginxServer#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7"
+  }
+}

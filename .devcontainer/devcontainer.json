@@ -1,0 +1,16 @@
+{
+    "name": "NginxServer",
+    "build": {
+        "dockerfile": "../app/dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "christian-kohler.path-intellisense",
+                "oderwat.indent-rainbow"
+            ]
+        }
+    }
+}
